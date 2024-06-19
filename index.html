@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AudioKandy - Unwrap the musical beauty</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="finallogo.png" alt="AudioKandy">AudioKandy</li>
+            <li id="homeButton">Home</li> <!-- Updated ID -->
+            <li id="aboutButton">About</li> <!-- Updated ID -->
+        </ul>
+    </nav>
+<!----->
+
+    <div id="homePopup" class="popup"> <!-- Updated ID -->
+        <!-- Content for home pop-up -->
+        <h2>Home</h2>
+        <p>AudioKandy - Unwrapping the musical beauty</p>
+    </div>
+
+    <div id="aboutPopup" class="popup"> <!-- Updated ID -->
+        <!-- Content for about pop-up -->
+        <h2>About</h2>
+        <p>Created and maintained by ak.</p>
+    </div>
+
+
+    <div class="search-container">
+        <input type="text" id="searchBar" placeholder="Unwrap the musical beauty with your search">
+    </div>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+             <div class="songItemContainer">
+
+                    <div class="songItem">
+                        <img src="covers/1.jpg" alt="1">
+                        <span class= "songName">vinee heights</span>
+                        <span class="songlistplay"><span class = "timestamp">04:17<i id = "0" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+
+                    <div class="songItem">
+                        <img src="covers/2.jpg" alt="1">
+                        <span class= "songName">vinee heights</span>
+                        <span class="songlistplay"><span class = "timestamp">03:04<i id = "1" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+
+                    <div class="songItem">
+                        <img src="covers/3.jpg" alt="1">
+                        <span class= "songName">vinee heights</span>
+                        <span class="songlistplay"><span class = "timestamp">03:28<i id = "2" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+
+                    <div class="songItem">
+                        <img src="covers/4.jpg" alt="1">
+                        <span class= "songName">vinee heights</span>
+                        <span class="songlistplay"><span class = "timestamp">03:43<i id = "3" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+
+                    <div class="songItem">
+                        <img src="covers/5.jpg" alt="1">
+                        <span class= "songName">vinee heights</span>
+                        <span class="songlistplay"><span class = "timestamp">03:31<i id = "4" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+
+                    <div class="songItem">
+                        <img src="covers/6.jpg" alt="1">
+                        <span class= "songName">vinee heights</span>
+                        <span class="songlistplay"><span class = "timestamp">03:16<i id = "5" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+
+                    <div class="songItem">
+                        <img src="covers/7.jpg" alt="1">
+                        <span class= "songName">vinee heights</span>
+                        <span class="songlistplay"><span class = "timestamp">03:49<i id = "6" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+
+                    <div class="songItem">
+                        <img src="covers/8.jpg" alt="1">
+                        <span class= "songName">vinee heights</span>
+                        <span class="songlistplay"><span class = "timestamp">03:29<i id = "7" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+
+                    <div class="songItem">
+                        <img src="covers/9.jpg" alt="1">
+                        <span class= "songName">vinee heights</span>
+                        <span class="songlistplay"><span class = "timestamp">03:14<i id = "8" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+
+                    <div class="songItem">
+                        <img src="covers/10.jpg" alt="1">
+                        <span class= "songName">vinee heights</span>
+                        <span class="songlistplay"><span class = "timestamp">03:00<i id = "9" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+
+                    <div class="songItem">
+                        <img src="covers/11.jpg" alt="1">
+                        <span class= "songName">vinee heights</span>
+                        <span class="songlistplay"><span class = "timestamp">04:23<i id = "10" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+
+                    <div class="songItem">
+                        <img src="covers/12.jpg" alt="1">
+                        <span class= "songName">vinee heights</span>
+                        <span class="songlistplay"><span class = "timestamp">05:13<i id = "11" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+
+                    <div class="songItem">
+                        <img src="covers/13.jpg" alt="1">
+                        <span class= "songName">vinee heights</span>
+                        <span class="songlistplay"><span class = "timestamp">02:47<i id = "12" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                    </div>
+             </div>
+
+        </div>
+        <img src="output-onlinegiftools.gif" alt="Animated GIF" class="giffy", id= "maingif">
+        
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progressBar" min="0" value="0" max="100">
+    
+        <div class="icons">
+            <!-- FontAwesome icons -->
+            <i class="fa-solid fa-3x fa-step-backward" id="previous"></i>
+            <i class="fa-solid fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-step-forward" id="next"></i>
+        </div>
+    
+        <div class="songInfo">
+            <img src="bottomgiffy.gif" width="42px" alt="" id="gif">
+            <span id="masterSongName">Vinee Heights</span>
+        </div>
+    
+        <div class="volume-control">
+            <input type="range" id="volumeControl" min="0" max="100" value="50">
+            <span id="volumePercent">50%</span>
+        </div>
+
+        <div class="bottom">
+            <!-- Other content -->
+            <div class="time-container">
+                <span id="currentTime">0:00</span>
+                <span>/</span>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+        
+    </div>
+    
+
+    
+
+
+
+    <script src="https://kit.fontawesome.com/f203e055a9.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
