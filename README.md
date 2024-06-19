@@ -38,5 +38,5 @@ AudioKandy is a sleek and modern audio streaming platform that offers a curated 
 - **No Copyright Sounds (NCS):** For providing the music tracks.
 - **FontAwesome:** For the icons used in the project.
 
-##website 
+## website 
 https://atharvakulkarni-07.github.io/AudioKandy/
